@@ -1,0 +1,167 @@
+#VRML V2.0 utf8
+
+# ==========================================
+# 8 obiecte în jurul observatorului
+# ==========================================
+
+# Față
+Transform {
+  translation 0 0 -6
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 1 0 0 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Față-dreapta
+Transform {
+  translation 4.24 0 -4.24
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 1 0.5 0 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Dreapta
+Transform {
+  translation 6 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 1 1 0 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Spate-dreapta
+Transform {
+  translation 4.24 0 4.24
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0 1 0 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Spate
+Transform {
+  translation 0 0 6
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0 1 1 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Spate-stânga
+Transform {
+  translation -4.24 0 4.24
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0 0 1 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Stânga
+Transform {
+  translation -6 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0 0.5 1 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+# Față-stânga
+Transform {
+  translation -4.24 0 -4.24
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 1 0 1 }
+      }
+      geometry Box { size 1 1 1 }
+    }
+  ]
+}
+
+
+# ==========================================
+# 4 obiecte DEASUPRA observatorului
+# ==========================================
+
+# Deasupra-față
+Transform {
+  translation 0 4 -5
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 1 0.2 0.2 }
+      }
+      geometry Sphere { radius 0.7 }
+    }
+  ]
+}
+
+# Deasupra-dreapta
+Transform {
+  translation 5 4 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.2 1 0.2 }
+      }
+      geometry Sphere { radius 0.7 }
+    }
+  ]
+}
+
+# Deasupra-spate
+Transform {
+  translation 0 4 5
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 0.2 0.4 1 }
+      }
+      geometry Sphere { radius 0.7 }
+    }
+  ]
+}
+
+# Deasupra-stânga
+Transform {
+  translation -5 4 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material { diffuseColor 1 0.2 1 }
+      }
+      geometry Sphere { radius 0.7 }
+    }
+  ]
+}
+
